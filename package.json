@@ -4,8 +4,7 @@
   "description": "A Node.js command line tool to know about me and see my resume",
   "main": "dist/index.js",
   "files": [
-    "src/**/*.ts",
-    "dist"
+    "./dist"
   ],
   "scripts": {
     "build:clean": "rm -rf dist",
