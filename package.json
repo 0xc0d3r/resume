@@ -3,6 +3,9 @@
   "version": "0.14.0",
   "description": "A Node.js command line tool to know about me and see my resume",
   "main": "dist/index.js",
+  "bin": {
+    "resume": "dist/index.js"
+  },
   "files": [
     "./dist"
   ],
