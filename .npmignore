@@ -11,4 +11,4 @@ src/**/*
 # override above and include ts files
 
 !src/**/*.ts
-!dist/
+!dist
