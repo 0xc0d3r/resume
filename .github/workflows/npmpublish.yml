@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
       - run: yarn install
-      - run: yarn test
+#       - run: yarn test
 
   publish-gpr:
     needs: build
@@ -32,4 +32,3 @@ jobs:
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          key:  
