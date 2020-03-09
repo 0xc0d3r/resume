@@ -1,1 +1,14 @@
+# standard ignores
+
+node_modules/
+spec/
+test/
+
+# ignore src
+
+src/**/*
+
+# override above and include ts files
+
+!src/**/*.ts
 !dist/
