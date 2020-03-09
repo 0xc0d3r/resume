@@ -1,6 +1,6 @@
 {
   "name": "@0xc0d3r/resume",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "A Node.js command line tool to know about me and see my resume",
   "main": "dist/index.js",
   "bin": {
