@@ -42,5 +42,8 @@
       "post-merge": "yarnhook",
       "post-rewrite": "yarnhook"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
