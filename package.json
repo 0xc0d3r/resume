@@ -4,7 +4,8 @@
   "description": "A Node.js command line tool to know about me and see my resume",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node_modules/.bin/tsc",
+    "build:clean": "rm -rf dist",
+    "build": "yarn build:clean && node_modules/.bin/tsc",
     "serve": "node dist/index.js",
     "watch-ts": "node_modules/.bin/tsc -w"
   },
@@ -45,5 +46,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "files": [
+    "/dist"
+  ]
 }

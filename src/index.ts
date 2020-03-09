@@ -13,7 +13,7 @@ const bold = chalk.cyan.bold
 
 const argv = yargs.option('resume', {
                 alias: 'r',
-                description: 'Path to resume file',
+                description: 'Path to resume json file',
                 type: 'string',
             })
             .nargs('r', 1)
