@@ -1,0 +1,30 @@
+{
+  "About me": [
+    "I have a demonstrated history (5 years of JS/React experience in production env) of working in software development. Skilled in developing and delivering stateful cross-browser web applications and stateful cross-platform mobile applications. \n\nDelivered high-quality software by adopting industry standards like Agile, Scrum (using JIRA), Test-Driven Development, Clean Code and Clean Architecture."
+  ],
+  "Education": ["B.Tech in Computer Science at RGUKT IIIT, Nuzvid - 8.5 CGPA"],
+  "Past Experience": [
+    "Currently working at WingSpan as a full-stack developer",
+    "5 years at CyberEye in different developer roles - Software Developer, Sr. Software Developer, and Lead Frontend Developer"
+  ],
+  "Technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "MERN Stack",
+    "React Native",
+    "Clean Code",
+    "Clean Architecture",
+    "TDD"
+  ],
+  "Projects": [
+    "Developed 10+ web applications and 5+ mobile applications using React and React Native."
+  ],
+  "Social Links": [
+    "Blog: https://anesh.xyz",
+    "GitHub: https://github.com/0xc0d3r",
+    "LinkedIn: https://www.linkedin.com/in/0xc0d3r/"
+  ],
+  "Contact me": ["anesh.parvatha@gmail.com"]
+}

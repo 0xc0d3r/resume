@@ -1,0 +1,46 @@
+{
+  "name": "@0xc0d3r/resume",
+  "version": "0.0.1",
+  "description": "A Node.js command line tool to know about me and see my resume",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "serve": "node dist/index.js",
+    "watch-ts": "node_modules/.bin/tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xc0d3r/resume.git"
+  },
+  "author": "0xc0d3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xc0d3r/resume/issues"
+  },
+  "homepage": "https://github.com/0xc0d3r/resume#readme",
+  "devDependencies": {
+    "@types/long": "^4.0.1",
+    "@types/node": "^13.9.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "madge": "^3.7.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3",
+    "yarnhook": "^0.4.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.6",
+    "yargs": "^15.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "madge --format es6 --circular src/ && lint-staged && tsc --noEmit --skipLibCheck",
+      "post-merge": "yarnhook",
+      "post-rewrite": "yarnhook"
+    }
+  }
+}
