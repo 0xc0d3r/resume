@@ -3,5 +3,5 @@
 ## Install
 
 ```
-yarn add @anesh/resume
+yarn add @0xc0d3r/resume
 ```
